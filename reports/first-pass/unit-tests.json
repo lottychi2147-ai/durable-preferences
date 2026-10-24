@@ -1,0 +1,338 @@
+{
+  "at": "2026-10-24T13:20:58.815872+00:00",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "sqlite": "3.46.1",
+  "tests": 81,
+  "passed": 80,
+  "failures": 1,
+  "errors": 0,
+  "cases": [
+    {
+      "test": "test_memory.MemoryTests.test_assistant_cannot_reinforce",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_atlas_escapes_user_label",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_bad_overlay_lifetime_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_bad_snapshot_state_rolls_back",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_candidate_direction_reset",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_candidate_expires_but_stable_does_not",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_cli_invalid_json_fails_without_write",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_cli_roundtrip_and_process_restart",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_compile_budget_and_omission",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_compile_budget_with_expiry",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_compile_never_reads_history",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_concurrent_cas_only_one_winner",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_concurrent_writes_preserve_revisions",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_core_style_is_always_loaded",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_correction_clears_candidate",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_dedup_survives_evidence_pruning",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_equal_timestamp_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_event_dedup",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_explicit_authorized_relearn",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_explicit_correction_immediate",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_explicit_immediately_persists",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_feedback_day_not_reused_after_consolidation",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_forget_is_not_raw_evidence_pruning",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_forget_removes_state_and_journal",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_four_days_consolidate_unknown",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_future_signal_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_hypothetical_cannot_reinforce",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_joke_cannot_reinforce",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_mention_does_not_create_liking",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_mixed_feedback_does_not_claim_consensus",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_naive_time_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_namespace_isolation",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_negative_control_unmounted_host_has_no_memory",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_old_signal_cannot_override_correction",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_old_snapshot_cannot_resurrect_forgotten_preference",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_overlay_for_unknown_still_guides_current_request",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_owner_isolation",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_passive_observation_cannot_relearn_forgotten_preference",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_policy_persisted_and_mismatch_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_quoted_cannot_reinforce",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_read_does_not_reinforce",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_repeated_bad_meals_can_change_preference",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_repeated_choice_does_not_mean_liking",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_replay_old_event_with_new_id_blocked_after_forget",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_restart_preserves_state",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_roleplay_cannot_reinforce",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_same_day_does_not_forge_four_independent_groups",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_scope_isolation",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_session_overlay_does_not_leak",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_single_bad_meal_does_not_erase_preference",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_snapshot_corruption_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_snapshot_identity_mismatch_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_snapshot_migration_preserves_preference",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_snapshot_nan_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_source_dedup_with_new_event_id",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_sparse_feedback_does_not_accumulate_across_years",
+      "status": "fail",
+      "error": "Traceback (most recent call last):\n  File \"[LOCAL_PATH]\", line 140, in test_sparse_feedback_does_not_accumulate_across_years\n    self.assertIsNone(self.first(now=BASE+timedelta(days=400))[\"stable\"])\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 1.0 is not None\n"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_sql_injection_in_identity_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_stale_cas_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_store_specific_complaint_does_not_generalize",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_subject_isolation",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_temporary_does_not_modify_stable",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_temporary_expires_without_new_revision",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_ten_year_silence_does_not_erase_stable",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_tool_text_cannot_reinforce",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_unexpected_identity_in_payload_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_unknown_is_distinct_from_neutral",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_validation_score_limits",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_bad_concept_list_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_configurable_json_budget",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_core_crowding_leaves_room_for_domain",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_forgetting_removes_requested_concept",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_full_read_no_writes",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_low_strength_requested_concept_is_still_readable",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_mentions_do_not_promote_weak_entries_above_old_strong",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_multi_domain_each_has_representative",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_nonfinite_input_still_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_old_strong_preference_survives_forty_later_weak_entries",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_request_does_not_invent_unknown_memory",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_requested_concept_cannot_escape_scope",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_requested_dedup_and_budget",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_restored_old_database_uses_new_selection",
+      "status": "pass"
+    }
+  ],
+  "unit_wall_seconds": 3.51
+}
