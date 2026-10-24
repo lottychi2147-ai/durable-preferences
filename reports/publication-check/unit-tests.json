@@ -1,0 +1,509 @@
+{
+  "at": "2026-10-24T13:59:57.974609+00:00",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "sqlite": "3.46.1",
+  "tests": 124,
+  "passed": 124,
+  "failures": 0,
+  "errors": 0,
+  "cases": [
+    {
+      "test": "test_memory.MemoryTests.test_assistant_cannot_reinforce",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_atlas_escapes_user_label",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_bad_overlay_lifetime_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_bad_snapshot_state_rolls_back",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_candidate_direction_reset",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_candidate_expires_but_stable_does_not",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_cli_invalid_json_fails_without_write",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_cli_roundtrip_and_process_restart",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_compile_budget_and_omission",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_compile_budget_with_expiry",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_compile_never_reads_history",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_concurrent_cas_only_one_winner",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_concurrent_writes_preserve_revisions",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_core_style_is_always_loaded",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_correction_clears_candidate",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_dedup_survives_evidence_pruning",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_equal_timestamp_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_event_dedup",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_explicit_authorized_relearn",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_explicit_correction_immediate",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_explicit_immediately_persists",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_feedback_day_not_reused_after_consolidation",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_forget_is_not_raw_evidence_pruning",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_forget_removes_state_and_journal",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_four_days_consolidate_unknown",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_future_signal_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_hypothetical_cannot_reinforce",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_joke_cannot_reinforce",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_mention_does_not_create_liking",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_mixed_feedback_does_not_claim_consensus",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_naive_time_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_namespace_isolation",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_negative_control_unmounted_host_has_no_memory",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_old_signal_cannot_override_correction",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_old_snapshot_cannot_resurrect_forgotten_preference",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_overlay_for_unknown_still_guides_current_request",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_owner_isolation",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_passive_observation_cannot_relearn_forgotten_preference",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_policy_persisted_and_mismatch_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_quoted_cannot_reinforce",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_read_does_not_reinforce",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_repeated_bad_meals_can_change_preference",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_repeated_choice_does_not_mean_liking",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_replay_old_event_with_new_id_blocked_after_forget",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_restart_preserves_state",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_roleplay_cannot_reinforce",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_same_day_does_not_forge_four_independent_groups",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_scope_isolation",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_session_overlay_does_not_leak",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_single_bad_meal_does_not_erase_preference",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_snapshot_corruption_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_snapshot_identity_mismatch_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_snapshot_migration_preserves_preference",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_snapshot_nan_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_source_dedup_with_new_event_id",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_sparse_feedback_accumulates_across_years",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_sql_injection_in_identity_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_stale_cas_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_store_specific_complaint_does_not_generalize",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_subject_isolation",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_temporary_does_not_modify_stable",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_temporary_expires_without_new_revision",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_ten_year_silence_does_not_erase_stable",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_tool_text_cannot_reinforce",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_unexpected_identity_in_payload_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_unknown_is_distinct_from_neutral",
+      "status": "pass"
+    },
+    {
+      "test": "test_memory.MemoryTests.test_validation_score_limits",
+      "status": "pass"
+    },
+    {
+      "test": "test_migration_v020.MigrationTests.test_future_sparse_learning_after_migration",
+      "status": "pass"
+    },
+    {
+      "test": "test_migration_v020.MigrationTests.test_live_open_legacy_requires_migration",
+      "status": "pass"
+    },
+    {
+      "test": "test_migration_v020.MigrationTests.test_migrated_deletion_still_blocks_relearn",
+      "status": "pass"
+    },
+    {
+      "test": "test_migration_v020.MigrationTests.test_migrated_receipt_rejects_new_timestamp_replay",
+      "status": "pass"
+    },
+    {
+      "test": "test_migration_v020.MigrationTests.test_migration_rebuilds_bounded_selection",
+      "status": "pass"
+    },
+    {
+      "test": "test_migration_v020.MigrationTests.test_migration_source_unchanged",
+      "status": "pass"
+    },
+    {
+      "test": "test_migration_v020.MigrationTests.test_no_overwrite_destination",
+      "status": "pass"
+    },
+    {
+      "test": "test_migration_v020.MigrationTests.test_snapshot_of_migrated_database_roundtrip",
+      "status": "pass"
+    },
+    {
+      "test": "test_migration_v020.MigrationTests.test_stable_and_gap_preserved",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_bad_concept_list_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_configurable_json_budget",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_core_crowding_leaves_room_for_domain",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_forgetting_removes_requested_concept",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_full_read_no_writes",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_low_strength_requested_concept_is_still_readable",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_mentions_do_not_promote_weak_entries_above_old_strong",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_multi_domain_each_has_representative",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_nonfinite_input_still_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_old_strong_preference_survives_forty_later_weak_entries",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_request_does_not_invent_unknown_memory",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_requested_concept_cannot_escape_scope",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_requested_dedup_and_budget",
+      "status": "pass"
+    },
+    {
+      "test": "test_scale_regressions.ScaleRegressions.test_restored_old_database_uses_new_selection",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_annual_feedback",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_dense_scope_decodes_bounded_pool",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_exact_duplicate_after_prune_new_timestamp",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_explicit_correction_resets_slow_batch",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_fast_and_slow_do_not_double_apply",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_forget_deletes_slow_evidence",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_forget_updates_index_and_stats",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_irregular_gaps",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_lifetime_positive_count_does_not_block_reversal",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_mixed_known_preference_surfaces_uncertainty",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_mixed_sparse_does_not_claim_like",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_mixed_to_consistent_adapts",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_neutral_explicit_remains_distinct_unknown",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_new_snapshot_invalid_slow_mass_rejected",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_no_confidence_freeze",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_noisy_but_consistent_sparse_forms_preference",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_nonreal_and_neutral_contact_not_positive_votes",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_policy_invalid_window_and_agreement",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_positive_and_negative_mass_separate",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_quarterly_forty_one_negative_unknown",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_quarterly_forty_one_positive",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_quarterly_negative_reverses_positive",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_quarterly_positive_reverses_negative",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_receipts_are_full_sha256_blobs",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_semiannual_feedback",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_session_overlay_unknown_does_not_leak_to_counts",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_short_expiry_does_not_clear_slow",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_single_bad_episode_does_not_flip_long_history",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_slow_export_restore",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_slow_pending_survives_silence",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_slow_survives_pruning_and_restart",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_slow_window_is_bounded",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_strength_less_than_one_not_forced_to_one",
+      "status": "pass"
+    },
+    {
+      "test": "test_sparse_v020.SparseLearningTests.test_unknown_overlay_count_and_expiry",
+      "status": "pass"
+    }
+  ],
+  "unit_wall_seconds": 5.3182
+}

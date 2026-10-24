@@ -1,0 +1,88 @@
+{
+  "publication_edition": "0.2.0-publication-docs.1",
+  "core_unchanged": true,
+  "code_and_test_files_unchanged": 21,
+  "structure_checks": {
+    "validator": "local structural / install smoke checks; not skills-ref",
+    "passed": 17,
+    "checks": [
+      {
+        "check": "SKILL.md YAML frontmatter delimiters",
+        "status": "pass"
+      },
+      {
+        "check": "name matches directory and allowed characters",
+        "status": "pass"
+      },
+      {
+        "check": "description length",
+        "status": "pass"
+      },
+      {
+        "check": "progressive disclosure: SKILL.md under 500 lines",
+        "status": "pass"
+      },
+      {
+        "check": "reference exists: references/api.md",
+        "status": "pass"
+      },
+      {
+        "check": "reference exists: references/update-rules.md",
+        "status": "pass"
+      },
+      {
+        "check": "reference exists: assets/signal.schema.json",
+        "status": "pass"
+      },
+      {
+        "check": "reference exists: references/encoding.md",
+        "status": "pass"
+      },
+      {
+        "check": "reference exists: references/host-integration.md",
+        "status": "pass"
+      },
+      {
+        "check": "reference exists: references/evaluation.md",
+        "status": "pass"
+      },
+      {
+        "check": "all Python files parse",
+        "status": "pass"
+      },
+      {
+        "check": "JSON assets parse",
+        "status": "pass"
+      },
+      {
+        "check": "no bundled live database",
+        "status": "pass"
+      },
+      {
+        "check": "installer dry run does not copy",
+        "status": "pass"
+      },
+      {
+        "check": "installer copies full package",
+        "status": "pass"
+      },
+      {
+        "check": "installer refuses overwrite",
+        "status": "pass"
+      },
+      {
+        "check": "installed CLI works with blank external store",
+        "status": "pass"
+      }
+    ]
+  },
+  "relative_links_checked": 33,
+  "privacy_scan": {
+    "targeted_findings": [],
+    "note": "Targeted static review, not a proof of absence of every possible secret."
+  },
+  "publisher_static_safeguards_passed": 10,
+  "remote_publish_tested": false,
+  "unit_recheck": "reports/publication-check/unit-tests.json",
+  "learning_recheck": "reports/publication-check/acceptance.json"
+}
