@@ -1,0 +1,44 @@
+{
+  "edition": "0.2.0-publication-docs.1",
+  "core_version": "0.2.0",
+  "schema_version": 2,
+  "source_package_sha256": "c153c754bb7da628401b123ce0006e3e89687c0bb9226cd6cd994e5c351c3017",
+  "core_sha256": "25449344c6889a9bc9d2b8969a8b059ace79cdbb9e128f29010e32aca82b817a",
+  "core_modified": false,
+  "remote_publication": "not_performed_in_this_environment",
+  "license": "not selected; original status preserved",
+  "redactions": [
+    {
+      "path": "reports/acceptance-baseline.json",
+      "count": 1,
+      "original_sha256": "c786765c15e5d4bfc0806cf27fc0349067d41efa0c4553364d6325475152f856"
+    },
+    {
+      "path": "reports/repair-summary.json",
+      "count": 7,
+      "original_sha256": "31b160e5ec682d5653840d966efc58edf9877b92a5f68ebed79faf4fb5f7be3a"
+    },
+    {
+      "path": "reports/acceptance-candidate.json",
+      "count": 1,
+      "original_sha256": "8fc678368bce79f5715192793359954490cc0867774223bc793559f36cfcdf9b"
+    },
+    {
+      "path": "reports/first-pass/unit-tests.txt",
+      "count": 1,
+      "original_sha256": "b483fb63c2fdf91369c61f3e0870cfb7bd6137cf155f6d54ece35a618464a984"
+    },
+    {
+      "path": "reports/first-pass/unit-tests.json",
+      "count": 1,
+      "original_sha256": "3081249a63124b9694cfc23710f61f56c93af1723746e80377632c8841285ae2"
+    }
+  ],
+  "redaction_scope": "Only local absolute execution paths in report strings; no metric/trace/failure values altered.",
+  "live_data_included": false,
+  "notes": [
+    "All bundled samples and benchmark data are synthetic.",
+    "This edition adds documentation and publishing tooling, not a new reducer.",
+    "No LLM end-to-end benchmark was performed."
+  ]
+}
