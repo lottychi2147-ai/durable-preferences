@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Durable preference signal v0.1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "evidence_id",
+    "scope",
+    "concept_id",
+    "kind",
+    "role",
+    "mode",
+    "observed_at"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "pattern": "^[\\w.:/@+\\-]+$"
+    },
+    "evidence_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "pattern": "^[\\w.:/@+\\-]+$"
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "pattern": "^[\\w.:/@+\\-]+$"
+    },
+    "concept_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "pattern": "^[\\w.:/@+\\-]+$"
+    },
+    "label": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80,
+      "pattern": "^[^\\x00-\\x1f]+$"
+    },
+    "kind": {
+      "enum": [
+        "explicit",
+        "correct",
+        "feedback",
+        "mention",
+        "choice",
+        "temporary"
+      ]
+    },
+    "value": {
+      "type": "number",
+      "minimum": -1,
+      "maximum": 1
+    },
+    "role": {
+      "enum": [
+        "user",
+        "assistant",
+        "tool",
+        "quoted"
+      ]
+    },
+    "mode": {
+      "enum": [
+        "real",
+        "joke",
+        "roleplay",
+        "hypothetical",
+        "quoted"
+      ]
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expires_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "session_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120,
+          "pattern": "^[\\w.:/@+\\-]+$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "allow_relearn": {
+      "type": "boolean"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "enum": [
+              "explicit",
+              "correct",
+              "feedback",
+              "temporary"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "value"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "enum": [
+              "mention",
+              "choice"
+            ]
+          }
+        }
+      },
+      "then": {
+        "not": {
+          "required": [
+            "value"
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "temporary"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "expires_at"
+        ]
+      },
+      "else": {
+        "not": {
+          "anyOf": [
+            {
+              "required": [
+                "expires_at"
+              ]
+            },
+            {
+              "required": [
+                "session_id"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "$comment": "Runtime additionally checks timestamps, dedup, scope, finite numbers, deletion watermark, seven-day expiry and optimistic revisions. Schema alone is not an authorization check."
+}

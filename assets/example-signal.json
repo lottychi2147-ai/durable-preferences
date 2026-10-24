@@ -1,0 +1,12 @@
+{
+  "event_id": "demo-0001",
+  "evidence_id": "demo-original-message-0001",
+  "scope": "food",
+  "concept_id": "food:chicken-cutlet",
+  "label": "雞排（測試資料）",
+  "kind": "explicit",
+  "value": 0.8,
+  "role": "user",
+  "mode": "real",
+  "observed_at": "2026-01-01T00:00:00+00:00"
+}
