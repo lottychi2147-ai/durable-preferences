@@ -1,0 +1,626 @@
+{
+  "kind": "exploratory_not_acceptance",
+  "rows": [
+    {
+      "sign_flip_rate": 0.0,
+      "seeds": 24,
+      "strong_positive": 24,
+      "strong_negative": 0,
+      "unknown": 0,
+      "mixed_flag": 0,
+      "samples": [
+        {
+          "seed": 0,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 1,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 2,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 3,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 4,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 5,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 6,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 7,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 8,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 9,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 10,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 11,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 12,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 13,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 14,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 15,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 16,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 17,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 18,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 19,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 20,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 21,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 22,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 23,
+          "stable": 1.0,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        }
+      ]
+    },
+    {
+      "sign_flip_rate": 0.1,
+      "seeds": 24,
+      "strong_positive": 23,
+      "strong_negative": 0,
+      "unknown": 0,
+      "mixed_flag": 2,
+      "samples": [
+        {
+          "seed": 0,
+          "stable": 0.53888,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 1,
+          "stable": 0.8848,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 2,
+          "stable": 0.77884928,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 3,
+          "stable": 0.587071232,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 4,
+          "stable": 0.850720768,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 5,
+          "stable": 0.7517611519999999,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 6,
+          "stable": 0.96671872,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 7,
+          "stable": 0.712448,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 8,
+          "stable": 0.381088768,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 9,
+          "stable": 0.791968768,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 10,
+          "stable": 0.780031232,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 11,
+          "stable": 0.9568,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 12,
+          "stable": 0.996640768,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 13,
+          "stable": 0.750752,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 14,
+          "stable": 0.8428096,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 15,
+          "stable": 0.95915008,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 16,
+          "stable": 0.791042048,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 17,
+          "stable": 0.68,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 18,
+          "stable": 0.8495488,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 19,
+          "stable": 0.7707207679999999,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 20,
+          "stable": 0.892,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 21,
+          "stable": 0.744109568,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 22,
+          "stable": 0.76568192,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 23,
+          "stable": 0.953440768,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        }
+      ]
+    },
+    {
+      "sign_flip_rate": 0.3,
+      "seeds": 24,
+      "strong_positive": 13,
+      "strong_negative": 0,
+      "unknown": 0,
+      "mixed_flag": 15,
+      "samples": [
+        {
+          "seed": 0,
+          "stable": 0.5,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 1,
+          "stable": 0.7,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 2,
+          "stable": 0.73888,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 3,
+          "stable": 0.22960000000000003,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 4,
+          "stable": 0.6633664,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 5,
+          "stable": 0.5,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 6,
+          "stable": 0.7,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 7,
+          "stable": 0.3248,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 8,
+          "stable": 0.62,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 9,
+          "stable": 0.6848000000000001,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 10,
+          "stable": 0.7,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 11,
+          "stable": 0.64395008,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 12,
+          "stable": 0.9568,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 13,
+          "stable": 0.5,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 14,
+          "stable": -0.15759999999999996,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 15,
+          "stable": 0.5,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 16,
+          "stable": 0.5,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 17,
+          "stable": 0.638528,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 18,
+          "stable": 0.5,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 19,
+          "stable": 0.506912,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 20,
+          "stable": 0.5,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 21,
+          "stable": 0.71792,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 22,
+          "stable": 0.5,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 23,
+          "stable": 0.72592,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        }
+      ]
+    },
+    {
+      "sign_flip_rate": 0.5,
+      "seeds": 24,
+      "strong_positive": 1,
+      "strong_negative": 3,
+      "unknown": 4,
+      "mixed_flag": 17,
+      "samples": [
+        {
+          "seed": 0,
+          "stable": -0.5,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 1,
+          "stable": -0.09999999999999998,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 2,
+          "stable": 0.28,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 3,
+          "stable": -0.5,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 4,
+          "stable": 0.14,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 5,
+          "stable": -0.005599999999999938,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 6,
+          "stable": -0.09999999999999998,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 7,
+          "stable": 0.5,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 8,
+          "stable": 0.09999999999999998,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 9,
+          "stable": -0.09999999999999998,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 10,
+          "stable": null,
+          "mixed_evidence": true,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 11,
+          "stable": 0.5,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 12,
+          "stable": 0.5201600000000001,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 13,
+          "stable": 0.5,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 14,
+          "stable": -0.62,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 15,
+          "stable": null,
+          "mixed_evidence": true,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 16,
+          "stable": -0.5,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 17,
+          "stable": 0.5,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 18,
+          "stable": null,
+          "mixed_evidence": true,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 19,
+          "stable": null,
+          "mixed_evidence": true,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 20,
+          "stable": -0.68,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 21,
+          "stable": 0.5,
+          "mixed_evidence": false,
+          "packet_uncertainty": false
+        },
+        {
+          "seed": 22,
+          "stable": 0.5,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        },
+        {
+          "seed": 23,
+          "stable": -0.7,
+          "mixed_evidence": true,
+          "packet_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Fixed reducer heuristic, no parameter tuning on this sweep.",
+    "At 50% sign-flips there is no reliable preference evidence; any strong conclusion demonstrates finite-sample/selection risk.",
+    "Does not measure natural-language classification or model answer quality."
+  ]
+}

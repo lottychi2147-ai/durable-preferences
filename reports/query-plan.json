@@ -1,0 +1,17 @@
+{
+  "query": "SELECT s.data FROM state_index i JOIN states s USING(owner,subject,namespace,scope,concept) WHERE i.owner=? AND i.subject=? AND i.namespace=? AND i.scope=? AND i.known=1 ORDER BY i.magnitude DESC,i.basis_rank,i.confirmed_at DESC,i.concept LIMIT ?",
+  "plan": [
+    [
+      8,
+      0,
+      0,
+      "SEARCH i USING COVERING INDEX state_rank (owner=? AND subject=? AND namespace=? AND scope=? AND known=?)"
+    ],
+    [
+      21,
+      0,
+      0,
+      "SEARCH s USING INDEX sqlite_autoindex_states_1 (owner=? AND subject=? AND namespace=? AND scope=? AND concept=?)"
+    ]
+  ]
+}
