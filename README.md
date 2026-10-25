@@ -148,6 +148,6 @@ tools/publish_github.py     經驗證清單發布工具，預設僅預覽
 本公開整理版不含真實對話、記憶資料庫、金鑰或個人帳務。測試資料均為合成；本地工作路徑已抽換，
 原始資料來源雜湊與抽換規則記在 [PUBLICATION_PROVENANCE.json](PUBLICATION_PROVENANCE.json)。
 
-**原套件尚未選定開源授權，本次保留原狀，未擅自新增 LICENSE。**
-歡迎先進行議題討論與提出反例；正式接受第三方程式碼貢獻前，由維護者確認授權政策。
-不以「公開研究原型」冒稱已完成開源授權。
+**本專案採用 [MIT License](LICENSE) 開源授權。** 著作權 © 2026 紀順文。
+允許使用、修改、商用及再發布（包含閉源版本），但須保留著作權與授權聲明。
+軟體依現狀提供，不提供擔保。歡迎透過 Issues、Discussions 與 Pull Requests 參與；詳見 [貢獻說明](CONTRIBUTING.md)。

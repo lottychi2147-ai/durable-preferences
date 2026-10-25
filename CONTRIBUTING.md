@@ -18,7 +18,15 @@
 提交時列出版本、Python／SQLite、seed、資料量、操作次數與是否真的呼叫模型。
 測試可先跑 `python tests/run_all.py --unit-only`。
 
-**授權政策尚待維護者選定。** 目前先歡迎設計討論與反例；合併第三方程式碼前確認貢獻授權。
+## 授權與提交
+
+本專案採用 [MIT License](LICENSE)。除非事先明確另有書面約定，你有意提交並納入本專案的貢獻亦採用 MIT 授權。
+請只提交你有權授權的內容；第三方內容須註明來源、保留必要聲明，並確認授權相容。
+提交 Pull Request 時，說明改動原因、測試方法與已知限制。
+
+This project uses the MIT License. Unless explicitly agreed otherwise in writing, contributions intentionally
+submitted for inclusion are provided under the same MIT License. Only submit material you have the right
+to license, and preserve required third-party attribution and license notices.
 
 ## 隱私
 

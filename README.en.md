@@ -65,8 +65,9 @@ Use repository Issues or Discussions when enabled. See [RFC-0001](docs/RFC-0001-
 Proposals can explore color encoding, stable concept identifiers, image-native assets, controlled comparisons,
 privacy, semantic classification and safe host integration. Do not post private conversations, live databases or keys.
 
-## License status
+## License
 
-The supplied prototype did not specify an open-source license. This publication preparation preserves that status;
-no LICENSE has been silently added. Discuss ideas and reproducible counterexamples freely in the community spaces;
-the maintainer should set the contribution/license policy before accepting third-party code.
+This project is open source under the [MIT License](LICENSE). Copyright (c) 2026 紀順文.
+Use, modification, commercial use and redistribution, including proprietary derivatives, are permitted
+provided the copyright and permission notices are retained. The software is provided without warranty.
+Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).

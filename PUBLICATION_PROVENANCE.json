@@ -1,12 +1,12 @@
 {
-  "edition": "0.2.0-publication-docs.1",
+  "edition": "0.2.0-mit.1",
   "core_version": "0.2.0",
   "schema_version": 2,
   "source_package_sha256": "c153c754bb7da628401b123ce0006e3e89687c0bb9226cd6cd994e5c351c3017",
   "core_sha256": "25449344c6889a9bc9d2b8969a8b059ace79cdbb9e128f29010e32aca82b817a",
   "core_modified": false,
-  "remote_publication": "not_performed_in_this_environment",
-  "license": "not selected; original status preserved",
+  "remote_publication": "https://github.com/lottychi2147-ai/durable-preferences",
+  "license": "MIT",
   "redactions": [
     {
       "path": "reports/acceptance-baseline.json",
@@ -40,5 +40,9 @@
     "All bundled samples and benchmark data are synthetic.",
     "This edition adds documentation and publishing tooling, not a new reducer.",
     "No LLM end-to-end benchmark was performed."
-  ]
+  ],
+  "original_license_status": "not selected; original status preserved",
+  "license_selected_on": "2026-10-25",
+  "copyright_holder": "紀順文",
+  "initial_publication_commit": "6802ab18174b3d8145699d23d06f3b8ca4e7e84f"
 }

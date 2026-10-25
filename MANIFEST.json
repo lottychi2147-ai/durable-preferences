@@ -1,7 +1,7 @@
 {
   "name": "durable-preferences",
   "version": "0.2.0",
-  "edition": "0.2.0-publication-docs.1",
+  "edition": "0.2.0-mit.1",
   "schema_version": 2,
   "reducer_version": "0.2.0",
   "hash_algorithm": "sha256",
@@ -11,11 +11,12 @@
     ".github/ISSUE_TEMPLATE/image-memory.md": "033b36052d38692e533e5c695875525b2a82a0f795b5e5fc2cb8fea1ab5fa7b8",
     ".github/PULL_REQUEST_TEMPLATE.md": "3aa93b27b5f0fabc3fcf999593cef9e10899ed8bf821c2b1a04bf241fe0ef0be",
     ".gitignore": "35aa634785bfc0e9628c4d6e77129389e1a361f0684c0a2d627813b90ed97748",
-    "CHANGELOG.md": "96c0ed94357f107337049ec7699f9ab1a1ac1396b994b853d77173554475ece0",
-    "CONTRIBUTING.md": "6f0eceaf72965be79fa826a2a7beaf4855e1194ebf7bb5e4e7cf00b9765dd892",
-    "PUBLICATION_PROVENANCE.json": "0e921dc59b0e87a1be7b66282fe85d33dc3eb2d4a4e74ed21f3181e140f39ee8",
-    "README.en.md": "f5985c26a93e07ad175ed1ed1e1d6284d792e16f365ce7c1e622d21ce746c2e0",
-    "README.md": "50af3469aed45c3f103edcd907acbe6498c8b07bf8dbf97bebfdeff0f682b5d8",
+    "CHANGELOG.md": "09626f0b9d408620360293407e9ff5a472b749948095edc1ab47fadebc6b9372",
+    "CONTRIBUTING.md": "407dfac60efe70daa457a542369f46ad9e19c3bfb75eec4b183bbaf47e86a697",
+    "LICENSE": "9db097ddb44172a8b6fc05ab4e2545ef827c5627f96454b07a1dd46edee49a65",
+    "PUBLICATION_PROVENANCE.json": "a2b2e7d522202e724ae42016d78a97d6e0899f139d975e0a8322d8dcea13e5b6",
+    "README.en.md": "b506f02042c3a4ffa928dd8d418437ba1381d8dde4b21067cefd6883415bd047",
+    "README.md": "04343efbb19162a0a2761a121f87aca2c5b6c02b55a2b69ae802ed0dd9ed4bac",
     "SECURITY.md": "835b4f38998e24a07a834f91ea0b1debd2990bc60c511ab9621aa37b793b8b2b",
     "SKILL.md": "882865ae9615d8ce03373d7ddfb95aec725abb1370efb2f61c58bff751725c7e",
     "assets/example-signal.json": "cf70c03093872ec90b6e6f7df17bead9df3d75b975487307b2b27091c18b8109",
@@ -23,7 +24,7 @@
     "docs/IMAGE_MEMORY.md": "4f0e179a01425493290c2e1ea585a8c22a871aa279f783b5759ee2c9ade293ea",
     "docs/INSTALLATION.md": "4f1911286d9c7e7e1d241c06200ebf1ded7f4c2316a5a074e2b4a92a593368ff",
     "docs/METHOD.md": "42636b580a2d5fb00debb868d7730f21ed032c3fc2a546051a348606319b28d3",
-    "docs/PUBLISHING.md": "c31a0d51f061e5a291f9ede5389e6c50363992dc917ea5d2058641a45c294ac7",
+    "docs/PUBLISHING.md": "5aa66bf717aa1a7634e6994328b43c9aef991ed9754aca6cf2cd4dcf48f496b0",
     "docs/RFC-0001-image-memory.md": "35d41786bd5ccbefe51a40fec611d590d25ba82c1fcf896f04ee7b5276cf116e",
     "docs/ROADMAP.md": "282fc21cb0cfaa1ecb53938202e82370424e30d9893b8514b64856883159684c",
     "docs/VALIDATION.md": "fe79ba4c31b1210f8109837b96bb8b5c3c005af376f6699f0ad1decde9f8c599",
@@ -66,6 +67,6 @@
     "tests/test_sparse_v020.py": "dc5e9146e2b8ed645892c8bc3017ca3db473a3410674aeb42fdfb4f0f2bda81d",
     "tests/validate_package.py": "1d0279fc13ea42e9db707cd0096c2cf71f8002dd18bf6e59b764f63a95b6add2",
     "tests/verify_decade_snapshot.py": "9b303afc91c37989742f42f0bdba21f772a9b691ec690fc380eab535e4eb2238",
-    "tools/publish_github.py": "8256ae20da9798e94d5fc5fe198431596738d86803658c2dca63416ccd70147d"
+    "tools/publish_github.py": "e9fe6a19954f288f43064134f535c3cbe5c9052b4402f971fdc89af2c65764f1"
   }
 }
