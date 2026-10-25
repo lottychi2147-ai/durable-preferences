@@ -104,7 +104,7 @@ def main(argv: list[str] | None = None) -> int:
         names = verify_package(ROOT)
         plan = {'mode': 'apply' if args.apply else 'dry-run', 'repository': args.repo,
                 'new_repository_visibility': 'public', 'private_repository_visibility_change': 'refused',
-                'files': len(names), 'core_version': '0.2.0', 'license': 'not selected; no LICENSE added',
+                'files': len(names), 'core_version': '0.2.0', 'license': 'MIT; see LICENSE',
                 'community': 'Enable Issues/Discussions and create an idempotent RFC issue.',
                 'history': 'No force push; preserve unrelated files. Protected branch failure stops the script.'}
         print(json.dumps(plan, ensure_ascii=False, indent=2))
@@ -147,8 +147,9 @@ def main(argv: list[str] | None = None) -> int:
                 skill = checkout/'SKILL.md'
                 if not skill.exists() or not re.search(r'^name:\s*durable-preferences\s*$', skill.read_text(encoding='utf-8'), re.M):
                     raise PublishError('Existing repository is not identifiable as this Skill; refusing to overwrite it.')
-                if any((checkout/x).exists() for x in ('LICENSE', 'LICENSE.md', 'LICENSE.txt', 'COPYING')):
-                    raise PublishError('Existing repository has a license; reconcile publication documentation with that license before updating.')
+                existing_licenses = [checkout/x for x in ('LICENSE', 'LICENSE.md', 'LICENSE.txt', 'COPYING') if (checkout/x).exists()]
+                if existing_licenses and (len(existing_licenses) != 1 or existing_licenses[0].name != 'LICENSE' or existing_licenses[0].read_bytes() != (ROOT/'LICENSE').read_bytes()):
+                    raise PublishError('Existing repository license differs from this MIT package; reconcile it before updating.')
             else:
                 git('checkout', '-B', 'main', cwd=checkout)
             copy_selected(ROOT, checkout, names)
